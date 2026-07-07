@@ -1,0 +1,17 @@
+{
+  "name": "coverbean",
+  "owner": { "name": "stimQQ" },
+  "description": "Coverbean — cover & thumbnail skills for social platforms, powered by apimodels.app.",
+  "plugins": [
+    {
+      "name": "coverbean",
+      "source": "./",
+      "description": "Generate ready-to-post covers/thumbnails for 小红书 · 微信公众号 · 抖音 · TikTok · YouTube.",
+      "version": "1.0.0",
+      "author": { "name": "stimQQ", "url": "https://apimodels.app" },
+      "homepage": "https://github.com/stimQQ/coverbean-skill",
+      "license": "MIT",
+      "keywords": ["cover", "thumbnail", "youtube", "xiaohongshu", "douyin", "tiktok", "ai", "image"]
+    }
+  ]
+}

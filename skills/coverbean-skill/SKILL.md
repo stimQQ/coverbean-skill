@@ -63,6 +63,8 @@ The script sends the platform's aspect ratio to the model (it snaps to the neare
 
 ## Usage
 
+Run `scripts/cover.mjs` from this skill's folder (paths below are relative to it). If you're elsewhere, use the absolute path — when installed as a Claude Code plugin that's `${CLAUDE_PLUGIN_ROOT}/skills/coverbean-skill/scripts/cover.mjs`.
+
 ```bash
 # One platform
 APIMODELS_API_KEY=$APIMODELS_API_KEY node scripts/cover.mjs \

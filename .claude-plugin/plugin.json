@@ -1,0 +1,10 @@
+{
+  "name": "coverbean",
+  "description": "Generate ready-to-post covers/thumbnails for 小红书 · 微信公众号 · 抖音 · TikTok · YouTube, from your AI agent. Powered by apimodels.app gpt-image-2-all.",
+  "version": "1.0.0",
+  "author": { "name": "stimQQ", "url": "https://apimodels.app" },
+  "homepage": "https://github.com/stimQQ/coverbean-skill",
+  "repository": "https://github.com/stimQQ/coverbean-skill",
+  "license": "MIT",
+  "keywords": ["cover", "thumbnail", "youtube", "xiaohongshu", "douyin", "tiktok", "ai", "image", "apimodels"]
+}

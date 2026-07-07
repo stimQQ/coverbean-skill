@@ -31,18 +31,26 @@ Also needs **Node.js 18+**, and optionally **ffmpeg** (for exact cropping).
 
 ## Install
 
-**Claude Code** — drop the folder into your skills directory:
+**Claude Code — one-line plugin install:**
 
-```bash
-git clone https://github.com/stimQQ/coverbean-skill ~/.claude/skills/coverbean-skill
+```
+/plugin marketplace add stimQQ/coverbean-skill
+/plugin install coverbean@coverbean
 ```
 
 Then just ask Claude: *"Make me a YouTube thumbnail about 'AI is coming for your job'."*
 
-**Any agent / manual** — run the bundled script directly:
+**Manual (any agent) — copy the skill into your skills dir:**
 
 ```bash
-APIMODELS_API_KEY=$APIMODELS_API_KEY node scripts/cover.mjs \
+git clone https://github.com/stimQQ/coverbean-skill /tmp/coverbean
+cp -r /tmp/coverbean/skills/coverbean-skill ~/.claude/skills/coverbean-skill
+```
+
+**Or run the bundled script directly:**
+
+```bash
+APIMODELS_API_KEY=$APIMODELS_API_KEY node skills/coverbean-skill/scripts/cover.mjs \
   --platform youtube \
   --prompt 'Bold thumbnail: wide-eyed creator pointing at a glowing AI chip, dramatic lighting, saturated teal/orange, large bold headline "AI 抢工作?" across the top third, high contrast' \
   --out ./covers
