@@ -1,0 +1,4 @@
+node_modules/
+covers/
+*-cover*.png
+.DS_Store
